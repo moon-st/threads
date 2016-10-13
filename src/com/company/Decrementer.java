@@ -15,10 +15,9 @@ public class Decrementer extends Thread {
     public void run() {
         if (!Thread.interrupted()){
             for (int i = 0; i <100 ; i++) {
-
+                Main.count--;
+                log(Main.count);
                 try {
-                    Main.count--;
-                    log(Main.count);
                     Thread.sleep((new Random().nextInt(250))+50);
                 }catch (InterruptedException e){
                     e.printStackTrace();
