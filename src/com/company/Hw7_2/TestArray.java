@@ -26,7 +26,7 @@ public class TestArray {
             }
     public void runWithTreads() throws InterruptedException{
         int arrHalfOne[] = Arrays.copyOfRange(arr, 0, arr.length/2);
-        int arrHalfTwo[] = Arrays.copyOfRange(arr, arr.length/2, arr.length+1);
+        int arrHalfTwo[] = Arrays.copyOfRange(arr, arr.length/2, arr.length);
         long start = System.currentTimeMillis();
         Thread thread1 = new Thread(new Runnable() {
             @Override
