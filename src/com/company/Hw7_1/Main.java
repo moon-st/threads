@@ -1,4 +1,4 @@
-package com.company;
+package com.company.Hw7_1;
 
 public class Main {
 public static int count=0;
@@ -12,8 +12,7 @@ public static int count=0;
         dec.setIncr(inc);
         inc.start();
         dec.start();
-        inc.join();
-        dec.join();
+
 
 
 

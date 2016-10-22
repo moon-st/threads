@@ -1,4 +1,4 @@
-package com.company;
+package com.company.Hw7_1;
 
 import java.util.Random;
 
